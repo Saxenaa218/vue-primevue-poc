@@ -3,18 +3,18 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
-  <router-view/>
+  <router-view />
 </template>
 
 <style lang="scss">
-// Uncomment the line below to use a remote font (also update the _theme.scss stylesheet).
-// @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import "~primevue/resources/themes/saga-blue/theme.css"; //theme
+// @import "~primevue/resources/themes/tailwind-light/theme.css";
 @import "~primevue/resources/primevue.min.css";
-@import "./assets/_theme.scss";
+@import "~primeicons/primeicons.css";
+@import "/node_modules/primeflex/primeflex.scss";
 
 #app {
-  // Uncomment the line below to use a remote font (also update the _theme.scss stylesheet).
-  // font-family: 'Lobster', Helvetica, Arial, sans-serif;
+  font-family: "Lobster", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
