@@ -173,6 +173,6 @@ export default {
 }
 
 /deep/ .pi-filter:before {
-  // content: url(../assets/filters.svg);
+  content: url(../assets/filters.svg);
 }
 </style>
