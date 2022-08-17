@@ -1,18 +1,12 @@
 <template>
-  <div id="nav">
+  <!-- <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
-  </div>
+  </div> -->
   <router-view />
 </template>
 
 <style lang="scss">
-@import "~primevue/resources/themes/saga-blue/theme.css"; //theme
-// @import "~primevue/resources/themes/tailwind-light/theme.css";
-@import "~primevue/resources/primevue.min.css";
-@import "~primeicons/primeicons.css";
-@import "/node_modules/primeflex/primeflex.scss";
-
 #app {
   font-family: "Lobster", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
