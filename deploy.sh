@@ -10,5 +10,5 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:Saxenaa218/vue-primevue-poc.git main:gh-pages
+git push -f git@github.com:Saxenaa218/vue-primevue-poc.git master:gh-pages
 cd -
